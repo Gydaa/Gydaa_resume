@@ -47,6 +47,11 @@ main{
     flex-direction: column;
 }
 
+ main h2, main h3 {
+    font-size: 2rem; 
+    font-weight: bold; 
+}
+
 #About{
     position: relative;
     background-image: url(../meidea/background.jpg); 
@@ -78,7 +83,7 @@ main{
     margin: 40px;
     z-index: 2;
 }
-#About h1 span{
+#About h2 span{
     font-weight: bold;
     font-size: 3rem;
     color: #A9B5DF;
